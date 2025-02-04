@@ -1,0 +1,16 @@
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    cursor: pointer;
+}
+
+.card.revealed {
+    background-color: white;
+}
