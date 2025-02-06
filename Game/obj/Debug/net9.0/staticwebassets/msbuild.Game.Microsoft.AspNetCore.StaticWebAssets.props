@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>128ijkipg3</Fingerprint>
-      <Integrity>t+O3d1U03zm5OCLPuCb/sB3P1ZvUGx98cYtdIAivnxI=</Integrity>
+      <Fingerprint>ulexyolkh3</Fingerprint>
+      <Integrity>MtqEp/lOsNU6NR1bg0+lGUzwTyvcSytqo8ub8ft8kWA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\GameBoard.css'))</OriginalItemSpec>
@@ -84,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>7rrr3ns5or</Fingerprint>
-      <Integrity>vZv5+RqqxnfEKDy7RO0N/82m4uQXxgeLSKj8qLxlIrI=</Integrity>
+      <Fingerprint>1fhkzs7t67</Fingerprint>
+      <Integrity>08fNzfKG1OumnzzUrT+c5R/iHtbelXHUY7HQ/KQrMZY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\GameBoard.js'))</OriginalItemSpec>

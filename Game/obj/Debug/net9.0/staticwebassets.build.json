@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Qpwca4PpnxPnN/VPVo2yMx8uIdzRwhKgxFw1dpMQuuA=",
+  "Hash": "XsfUv+y/HxRhWb3iLQ8zyKu0W0SMP2DWqvC7KWTr7S4=",
   "Source": "Game",
   "BasePath": "_content/Game",
   "Mode": "Default",
@@ -59,12 +59,12 @@
       "OriginalItemSpec": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\obj\\Debug\\net9.0\\compressed\\0leh0rtu6z-7rrr3ns5or.gz",
+      "Identity": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\obj\\Debug\\net9.0\\compressed\\0leh0rtu6z-1fhkzs7t67.gz",
       "SourceId": "Game",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Game",
-      "RelativePath": "js/GameBoard#[.{fingerprint=7rrr3ns5or}]?.js.gz",
+      "RelativePath": "js/GameBoard#[.{fingerprint=1fhkzs7t67}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -73,8 +73,8 @@
       "RelatedAsset": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\wwwroot\\js\\GameBoard.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "hzezwqdgdf",
-      "Integrity": "nc4yBQgD2LcahK3MHjIcsW5licuiBoYn1hJNpuPYXDs=",
+      "Fingerprint": "92qpn41dis",
+      "Integrity": "z1i70GU9yd+om3e8aydtZKQbaCnB2Jg7paKGztnfnpM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\wwwroot\\js\\GameBoard.js"
@@ -1067,12 +1067,12 @@
       "OriginalItemSpec": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\obj\\Debug\\net9.0\\compressed\\p2ohsugt92-128ijkipg3.gz",
+      "Identity": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\obj\\Debug\\net9.0\\compressed\\p2ohsugt92-ulexyolkh3.gz",
       "SourceId": "Game",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Game",
-      "RelativePath": "css/GameBoard#[.{fingerprint=128ijkipg3}]?.css.gz",
+      "RelativePath": "css/GameBoard#[.{fingerprint=ulexyolkh3}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1081,8 +1081,8 @@
       "RelatedAsset": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\wwwroot\\css\\GameBoard.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "o8hlvvof7s",
-      "Integrity": "iOUJUaBdT1h8qE9xG6+cPKubKdTWeH3dpB8oIRFmBJo=",
+      "Fingerprint": "3amjemgfy9",
+      "Integrity": "dWLUUnpcKz22HRW126X72beWWyis6Yt5nWQTAqf+/J0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\wwwroot\\css\\GameBoard.css"
@@ -1459,8 +1459,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "128ijkipg3",
-      "Integrity": "t+O3d1U03zm5OCLPuCb/sB3P1ZvUGx98cYtdIAivnxI=",
+      "Fingerprint": "ulexyolkh3",
+      "Integrity": "MtqEp/lOsNU6NR1bg0+lGUzwTyvcSytqo8ub8ft8kWA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\GameBoard.css"
@@ -1522,8 +1522,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7rrr3ns5or",
-      "Integrity": "vZv5+RqqxnfEKDy7RO0N/82m4uQXxgeLSKj8qLxlIrI=",
+      "Fingerprint": "1fhkzs7t67",
+      "Integrity": "08fNzfKG1OumnzzUrT+c5R/iHtbelXHUY7HQ/KQrMZY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\GameBoard.js"
@@ -2812,13 +2812,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/GameBoard.128ijkipg3.css",
-      "AssetFile": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\obj\\Debug\\net9.0\\compressed\\p2ohsugt92-128ijkipg3.gz",
+      "Route": "css/GameBoard.css",
+      "AssetFile": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\obj\\Debug\\net9.0\\compressed\\p2ohsugt92-ulexyolkh3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.005813953488"
+          "Quality": "0.003802281369"
         }
       ],
       "ResponseHeaders": [
@@ -2828,19 +2828,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "171"
+          "Value": "262"
         },
         {
           "Name": "ETag",
-          "Value": "\"iOUJUaBdT1h8qE9xG6+cPKubKdTWeH3dpB8oIRFmBJo=\""
+          "Value": "\"dWLUUnpcKz22HRW126X72beWWyis6Yt5nWQTAqf+/J0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Feb 2025 16:52:47 GMT"
+          "Value": "Wed, 05 Feb 2025 14:49:31 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -2856,26 +2856,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"t+O3d1U03zm5OCLPuCb/sB3P1ZvUGx98cYtdIAivnxI=\""
+          "Value": "W/\"MtqEp/lOsNU6NR1bg0+lGUzwTyvcSytqo8ub8ft8kWA=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "128ijkipg3"
-        },
-        {
-          "Name": "label",
-          "Value": "css/GameBoard.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-t+O3d1U03zm5OCLPuCb/sB3P1ZvUGx98cYtdIAivnxI="
+          "Value": "sha256-MtqEp/lOsNU6NR1bg0+lGUzwTyvcSytqo8ub8ft8kWA="
         }
       ]
     },
     {
-      "Route": "css/GameBoard.128ijkipg3.css",
+      "Route": "css/GameBoard.css",
       "AssetFile": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\wwwroot\\css\\GameBoard.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2885,7 +2877,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "253"
+          "Value": "557"
         },
         {
           "Name": "Content-Type",
@@ -2893,11 +2885,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"t+O3d1U03zm5OCLPuCb/sB3P1ZvUGx98cYtdIAivnxI=\""
+          "Value": "\"MtqEp/lOsNU6NR1bg0+lGUzwTyvcSytqo8ub8ft8kWA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Feb 2025 16:52:47 GMT"
+          "Value": "Wed, 05 Feb 2025 14:49:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MtqEp/lOsNU6NR1bg0+lGUzwTyvcSytqo8ub8ft8kWA="
+        }
+      ]
+    },
+    {
+      "Route": "css/GameBoard.css.gz",
+      "AssetFile": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\obj\\Debug\\net9.0\\compressed\\p2ohsugt92-ulexyolkh3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "262"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dWLUUnpcKz22HRW126X72beWWyis6Yt5nWQTAqf+/J0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 14:49:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dWLUUnpcKz22HRW126X72beWWyis6Yt5nWQTAqf+/J0="
+        }
+      ]
+    },
+    {
+      "Route": "css/GameBoard.ulexyolkh3.css",
+      "AssetFile": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\obj\\Debug\\net9.0\\compressed\\p2ohsugt92-ulexyolkh3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003802281369"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "262"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dWLUUnpcKz22HRW126X72beWWyis6Yt5nWQTAqf+/J0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 14:49:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"MtqEp/lOsNU6NR1bg0+lGUzwTyvcSytqo8ub8ft8kWA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ulexyolkh3"
+        },
+        {
+          "Name": "label",
+          "Value": "css/GameBoard.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MtqEp/lOsNU6NR1bg0+lGUzwTyvcSytqo8ub8ft8kWA="
+        }
+      ]
+    },
+    {
+      "Route": "css/GameBoard.ulexyolkh3.css",
+      "AssetFile": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\wwwroot\\css\\GameBoard.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "557"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MtqEp/lOsNU6NR1bg0+lGUzwTyvcSytqo8ub8ft8kWA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 14:49:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2907,7 +3044,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "128ijkipg3"
+          "Value": "ulexyolkh3"
         },
         {
           "Name": "label",
@@ -2915,13 +3052,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-t+O3d1U03zm5OCLPuCb/sB3P1ZvUGx98cYtdIAivnxI="
+          "Value": "sha256-MtqEp/lOsNU6NR1bg0+lGUzwTyvcSytqo8ub8ft8kWA="
         }
       ]
     },
     {
-      "Route": "css/GameBoard.128ijkipg3.css.gz",
-      "AssetFile": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\obj\\Debug\\net9.0\\compressed\\p2ohsugt92-128ijkipg3.gz",
+      "Route": "css/GameBoard.ulexyolkh3.css.gz",
+      "AssetFile": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\obj\\Debug\\net9.0\\compressed\\p2ohsugt92-ulexyolkh3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2930,7 +3067,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "171"
+          "Value": "262"
         },
         {
           "Name": "Content-Type",
@@ -2938,11 +3075,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"iOUJUaBdT1h8qE9xG6+cPKubKdTWeH3dpB8oIRFmBJo=\""
+          "Value": "\"dWLUUnpcKz22HRW126X72beWWyis6Yt5nWQTAqf+/J0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Feb 2025 16:52:47 GMT"
+          "Value": "Wed, 05 Feb 2025 14:49:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2960,7 +3097,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "128ijkipg3"
+          "Value": "ulexyolkh3"
         },
         {
           "Name": "label",
@@ -2968,144 +3105,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-iOUJUaBdT1h8qE9xG6+cPKubKdTWeH3dpB8oIRFmBJo="
-        }
-      ]
-    },
-    {
-      "Route": "css/GameBoard.css",
-      "AssetFile": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\obj\\Debug\\net9.0\\compressed\\p2ohsugt92-128ijkipg3.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.005813953488"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "171"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"iOUJUaBdT1h8qE9xG6+cPKubKdTWeH3dpB8oIRFmBJo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Feb 2025 16:52:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"t+O3d1U03zm5OCLPuCb/sB3P1ZvUGx98cYtdIAivnxI=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-t+O3d1U03zm5OCLPuCb/sB3P1ZvUGx98cYtdIAivnxI="
-        }
-      ]
-    },
-    {
-      "Route": "css/GameBoard.css",
-      "AssetFile": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\wwwroot\\css\\GameBoard.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "253"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"t+O3d1U03zm5OCLPuCb/sB3P1ZvUGx98cYtdIAivnxI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Feb 2025 16:52:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-t+O3d1U03zm5OCLPuCb/sB3P1ZvUGx98cYtdIAivnxI="
-        }
-      ]
-    },
-    {
-      "Route": "css/GameBoard.css.gz",
-      "AssetFile": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\obj\\Debug\\net9.0\\compressed\\p2ohsugt92-128ijkipg3.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "171"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"iOUJUaBdT1h8qE9xG6+cPKubKdTWeH3dpB8oIRFmBJo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Feb 2025 16:52:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-iOUJUaBdT1h8qE9xG6+cPKubKdTWeH3dpB8oIRFmBJo="
+          "Value": "sha256-dWLUUnpcKz22HRW126X72beWWyis6Yt5nWQTAqf+/J0="
         }
       ]
     },
@@ -4302,13 +4302,13 @@
       ]
     },
     {
-      "Route": "js/GameBoard.7rrr3ns5or.js",
-      "AssetFile": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\obj\\Debug\\net9.0\\compressed\\0leh0rtu6z-7rrr3ns5or.gz",
+      "Route": "js/GameBoard.1fhkzs7t67.js",
+      "AssetFile": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\obj\\Debug\\net9.0\\compressed\\0leh0rtu6z-1fhkzs7t67.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000921658986"
+          "Quality": "0.000725689405"
         }
       ],
       "ResponseHeaders": [
@@ -4318,15 +4318,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1084"
+          "Value": "1377"
         },
         {
           "Name": "ETag",
-          "Value": "\"nc4yBQgD2LcahK3MHjIcsW5licuiBoYn1hJNpuPYXDs=\""
+          "Value": "\"z1i70GU9yd+om3e8aydtZKQbaCnB2Jg7paKGztnfnpM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Feb 2025 17:21:15 GMT"
+          "Value": "Wed, 05 Feb 2025 15:49:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4346,13 +4346,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"vZv5+RqqxnfEKDy7RO0N/82m4uQXxgeLSKj8qLxlIrI=\""
+          "Value": "W/\"08fNzfKG1OumnzzUrT+c5R/iHtbelXHUY7HQ/KQrMZY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7rrr3ns5or"
+          "Value": "1fhkzs7t67"
         },
         {
           "Name": "label",
@@ -4360,12 +4360,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vZv5+RqqxnfEKDy7RO0N/82m4uQXxgeLSKj8qLxlIrI="
+          "Value": "sha256-08fNzfKG1OumnzzUrT+c5R/iHtbelXHUY7HQ/KQrMZY="
         }
       ]
     },
     {
-      "Route": "js/GameBoard.7rrr3ns5or.js",
+      "Route": "js/GameBoard.1fhkzs7t67.js",
       "AssetFile": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\wwwroot\\js\\GameBoard.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4375,7 +4375,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3321"
+          "Value": "4499"
         },
         {
           "Name": "Content-Type",
@@ -4383,11 +4383,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vZv5+RqqxnfEKDy7RO0N/82m4uQXxgeLSKj8qLxlIrI=\""
+          "Value": "\"08fNzfKG1OumnzzUrT+c5R/iHtbelXHUY7HQ/KQrMZY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Feb 2025 17:21:15 GMT"
+          "Value": "Wed, 05 Feb 2025 15:49:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4397,7 +4397,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7rrr3ns5or"
+          "Value": "1fhkzs7t67"
         },
         {
           "Name": "label",
@@ -4405,13 +4405,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vZv5+RqqxnfEKDy7RO0N/82m4uQXxgeLSKj8qLxlIrI="
+          "Value": "sha256-08fNzfKG1OumnzzUrT+c5R/iHtbelXHUY7HQ/KQrMZY="
         }
       ]
     },
     {
-      "Route": "js/GameBoard.7rrr3ns5or.js.gz",
-      "AssetFile": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\obj\\Debug\\net9.0\\compressed\\0leh0rtu6z-7rrr3ns5or.gz",
+      "Route": "js/GameBoard.1fhkzs7t67.js.gz",
+      "AssetFile": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\obj\\Debug\\net9.0\\compressed\\0leh0rtu6z-1fhkzs7t67.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4420,7 +4420,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1084"
+          "Value": "1377"
         },
         {
           "Name": "Content-Type",
@@ -4428,11 +4428,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nc4yBQgD2LcahK3MHjIcsW5licuiBoYn1hJNpuPYXDs=\""
+          "Value": "\"z1i70GU9yd+om3e8aydtZKQbaCnB2Jg7paKGztnfnpM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Feb 2025 17:21:15 GMT"
+          "Value": "Wed, 05 Feb 2025 15:49:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4450,7 +4450,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7rrr3ns5or"
+          "Value": "1fhkzs7t67"
         },
         {
           "Name": "label",
@@ -4458,18 +4458,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-nc4yBQgD2LcahK3MHjIcsW5licuiBoYn1hJNpuPYXDs="
+          "Value": "sha256-z1i70GU9yd+om3e8aydtZKQbaCnB2Jg7paKGztnfnpM="
         }
       ]
     },
     {
       "Route": "js/GameBoard.js",
-      "AssetFile": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\obj\\Debug\\net9.0\\compressed\\0leh0rtu6z-7rrr3ns5or.gz",
+      "AssetFile": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\obj\\Debug\\net9.0\\compressed\\0leh0rtu6z-1fhkzs7t67.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000921658986"
+          "Quality": "0.000725689405"
         }
       ],
       "ResponseHeaders": [
@@ -4479,15 +4479,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1084"
+          "Value": "1377"
         },
         {
           "Name": "ETag",
-          "Value": "\"nc4yBQgD2LcahK3MHjIcsW5licuiBoYn1hJNpuPYXDs=\""
+          "Value": "\"z1i70GU9yd+om3e8aydtZKQbaCnB2Jg7paKGztnfnpM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Feb 2025 17:21:15 GMT"
+          "Value": "Wed, 05 Feb 2025 15:49:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4507,13 +4507,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"vZv5+RqqxnfEKDy7RO0N/82m4uQXxgeLSKj8qLxlIrI=\""
+          "Value": "W/\"08fNzfKG1OumnzzUrT+c5R/iHtbelXHUY7HQ/KQrMZY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vZv5+RqqxnfEKDy7RO0N/82m4uQXxgeLSKj8qLxlIrI="
+          "Value": "sha256-08fNzfKG1OumnzzUrT+c5R/iHtbelXHUY7HQ/KQrMZY="
         }
       ]
     },
@@ -4528,7 +4528,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3321"
+          "Value": "4499"
         },
         {
           "Name": "Content-Type",
@@ -4536,11 +4536,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vZv5+RqqxnfEKDy7RO0N/82m4uQXxgeLSKj8qLxlIrI=\""
+          "Value": "\"08fNzfKG1OumnzzUrT+c5R/iHtbelXHUY7HQ/KQrMZY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Feb 2025 17:21:15 GMT"
+          "Value": "Wed, 05 Feb 2025 15:49:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4550,13 +4550,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vZv5+RqqxnfEKDy7RO0N/82m4uQXxgeLSKj8qLxlIrI="
+          "Value": "sha256-08fNzfKG1OumnzzUrT+c5R/iHtbelXHUY7HQ/KQrMZY="
         }
       ]
     },
     {
       "Route": "js/GameBoard.js.gz",
-      "AssetFile": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\obj\\Debug\\net9.0\\compressed\\0leh0rtu6z-7rrr3ns5or.gz",
+      "AssetFile": "C:\\Users\\sofiatrevino\\root\\memorygame\\Game\\obj\\Debug\\net9.0\\compressed\\0leh0rtu6z-1fhkzs7t67.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4565,7 +4565,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1084"
+          "Value": "1377"
         },
         {
           "Name": "Content-Type",
@@ -4573,11 +4573,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nc4yBQgD2LcahK3MHjIcsW5licuiBoYn1hJNpuPYXDs=\""
+          "Value": "\"z1i70GU9yd+om3e8aydtZKQbaCnB2Jg7paKGztnfnpM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Feb 2025 17:21:15 GMT"
+          "Value": "Wed, 05 Feb 2025 15:49:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4595,7 +4595,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-nc4yBQgD2LcahK3MHjIcsW5licuiBoYn1hJNpuPYXDs="
+          "Value": "sha256-z1i70GU9yd+om3e8aydtZKQbaCnB2Jg7paKGztnfnpM="
         }
       ]
     },

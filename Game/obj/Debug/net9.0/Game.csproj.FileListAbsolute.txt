@@ -96,5 +96,5 @@ C:\Users\sofiatrevino\root\memorygame\Game\obj\Debug\net9.0\refint\Game.dll
 C:\Users\sofiatrevino\root\memorygame\Game\obj\Debug\net9.0\Game.pdb
 C:\Users\sofiatrevino\root\memorygame\Game\obj\Debug\net9.0\Game.genruntimeconfig.cache
 C:\Users\sofiatrevino\root\memorygame\Game\obj\Debug\net9.0\ref\Game.dll
-C:\Users\sofiatrevino\root\memorygame\Game\obj\Debug\net9.0\compressed\p2ohsugt92-128ijkipg3.gz
-C:\Users\sofiatrevino\root\memorygame\Game\obj\Debug\net9.0\compressed\0leh0rtu6z-7rrr3ns5or.gz
+C:\Users\sofiatrevino\root\memorygame\Game\obj\Debug\net9.0\compressed\p2ohsugt92-ulexyolkh3.gz
+C:\Users\sofiatrevino\root\memorygame\Game\obj\Debug\net9.0\compressed\0leh0rtu6z-1fhkzs7t67.gz

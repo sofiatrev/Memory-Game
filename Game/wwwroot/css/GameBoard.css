@@ -1,13 +1,28 @@
 #game-board {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
+}
+
+#game-board[data-size="4x4"] {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#game-board[data-size="6x6"] {
+    grid-template-columns: repeat(6, 1fr);
+}
+
+#game-board[data-size="8x8"] {
+    grid-template-columns: repeat(8, 1fr);
 }
 
 .card {
     width: 100px;
     height: 100px;
-    background-color: grey;
+    background-color: gray;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
 }
 

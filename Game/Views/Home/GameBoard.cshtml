@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="~/css/GameBoard.css" />
 </head>
 <body>
+    <div id="controls">
+        <button id="boardSize4x4">4x4</button>
+        <button id="boardSize6x6">6x6</button>
+        <button id="boardSize8x8">8x8</button>
+    </div>
     <div id="game-board">
         @foreach (var card in Model)
         {

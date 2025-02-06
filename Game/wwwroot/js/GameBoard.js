@@ -1,20 +1,65 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Select all card elements
-    const cards = document.querySelectorAll('.card');
-    let firstCard, secondCard;
+    // Function to generate a random color
+    function generateRandomColor(existingColors) {
+        const letters = '0123456789ABCDEF';
+        let color;
+        do {
+            color = '#';
+            for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+        } while (existingColors.has(color)); // Ensure the color is unique
+        return color;
+    }
+
+    // Function to generate colors based on board size
+    function generateColors(boardSize) {
+        const baseColors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange', 'pink', 'brown'];
+        let colors = [];
+        const totalPairs = (boardSize * boardSize) / 2;
+        const existingColors = new Set(baseColors);
+
+        // Add base colors first
+        for (let i = 0; i < baseColors.length && colors.length < totalPairs; i++) {
+            colors.push(baseColors[i]);
+        }
+
+        // If still more colors are needed, generate random colors
+        while (colors.length < totalPairs) {
+            const newColor = generateRandomColor(existingColors);
+            colors.push(newColor);
+            existingColors.add(newColor);
+        }
+
+        console.log('Generated colors:', colors); // Debugging log
+        return colors;
+    }
+
+    // Function to initialize the game board
+    function initializeGameBoard(boardSize) {
+        const colors = generateColors(boardSize);
+        const doubledColors = [...colors, ...colors]; // Duplicate colors for pairs
+        doubledColors.sort(() => 0.5 - Math.random()); // Shuffle the colors
+
+        const gameBoard = document.getElementById('game-board');
+        gameBoard.innerHTML = ''; // Clear existing cards
+        gameBoard.dataset.size = `${boardSize}x${boardSize}`; // Set the data-size attribute
+
+        // Create and append card elements
+        for (let i = 0; i < doubledColors.length; i++) {
+            const card = document.createElement('div');
+            card.classList.add('card');
+            card.dataset.color = doubledColors[i]; // Store true color in data attribute for matching logic
+            card.style.backgroundColor = 'gray'; // Set the initial background color to gray
+            card.addEventListener('click', flipCard); // Add event listener for flipping the card
+            gameBoard.appendChild(card);
+        }
+    }
+
+    // Variables to keep track of the game state
     let hasFlippedCard = false;
     let lockBoard = false;
-
-    // Define and shuffle colors
-    const colors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange', 'pink', 'brown'];
-    const doubledColors = [...colors, ...colors]; // Duplicate colors for pairs
-    doubledColors.sort(() => 0.5 - Math.random()); // Shuffle the colors
-
-    // Assign colors to cards
-    cards.forEach((card, index) => {
-        card.dataset.color = doubledColors[index]; // Store true color in data attribute for matching logic
-        card.style.backgroundColor = 'gray'; // Set the initial background color to gray
-    });
+    let firstCard, secondCard;
 
     // Function to flip a card
     function flipCard() {
@@ -33,40 +78,37 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // If this is the second card being flipped
         secondCard = this;
-        checkForMatch(); // Check if the two cards match
-    }
-
-    // Function to check if two cards match
-    function checkForMatch() {
-        let isMatch = firstCard.dataset.color === secondCard.dataset.color; // Compare the colors of the two cards
-        isMatch ? disableCards() : unflipCards(); // If they match, disable them; otherwise, unflip them
-    }
-
-    // Function to disable matched cards
-    function disableCards() {
-        firstCard.removeEventListener('click', flipCard); // Remove click event listener from the first card
-        secondCard.removeEventListener('click', flipCard); // Remove click event listener from the second card
-        resetBoard(); // Reset the board state
-    }
-
-    // Function to unflip unmatched cards
-    function unflipCards() {
         lockBoard = true; // Lock the board to prevent further clicks
-        setTimeout(() => {
-            firstCard.style.backgroundColor = 'gray'; // Set the background color back to gray
-            secondCard.style.backgroundColor = 'gray'; // Set the background color back to gray
-            firstCard.classList.remove('revealed'); // Remove the 'revealed' class from the first card
-            secondCard.classList.remove('revealed'); // Remove the 'revealed' class from the second card
-            resetBoard(); // Reset the board state
-        }, 1500); // Wait for 1.5 seconds before unflipping the cards
+
+        // Check if the cards match
+        if (firstCard.dataset.color === secondCard.dataset.color) {
+            // If the cards match, disable them
+            firstCard.removeEventListener('click', flipCard);
+            secondCard.removeEventListener('click', flipCard);
+            resetBoard();
+        } else {
+            // If the cards do not match, flip them back after a short delay
+            setTimeout(() => {
+                firstCard.style.backgroundColor = 'gray';
+                secondCard.style.backgroundColor = 'gray';
+                firstCard.classList.remove('revealed');
+                secondCard.classList.remove('revealed');
+                resetBoard();
+            }, 1000);
+        }
     }
 
     // Function to reset the board state
     function resetBoard() {
-        [hasFlippedCard, lockBoard] = [false, false]; // Reset the flipped card and lock board flags
-        [firstCard, secondCard] = [null, null]; // Reset the first and second card variables
+        [hasFlippedCard, lockBoard] = [false, false];
+        [firstCard, secondCard] = [null, null];
     }
 
-    // Add click event listener to each card
-    cards.forEach(card => card.addEventListener('click', flipCard));
+    // Event listeners for board size selection
+    document.getElementById('boardSize4x4').addEventListener('click', () => initializeGameBoard(4));
+    document.getElementById('boardSize6x6').addEventListener('click', () => initializeGameBoard(6));
+    document.getElementById('boardSize8x8').addEventListener('click', () => initializeGameBoard(8));
+
+    // Initialize the default game board (e.g., 4x4)
+    initializeGameBoard(4);
 });
