@@ -1,4 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
+    const BASE_COLORS = ['red', 'blue', 'green', 'yellow', 'purple', 'orange', 'pink', 'brown'];
+    const DEFAULT_BOARD_SIZE = 4;
+    const CARD_BACK_COLOR = 'gray';
+
     // Function to generate a random color
     function generateRandomColor(existingColors) {
         const letters = '0123456789ABCDEF';
@@ -14,14 +18,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Function to generate colors based on board size
     function generateColors(boardSize) {
-        const baseColors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange', 'pink', 'brown'];
         let colors = [];
         const totalPairs = (boardSize * boardSize) / 2;
-        const existingColors = new Set(baseColors);
+        const existingColors = new Set(BASE_COLORS);
 
         // Add base colors first
-        for (let i = 0; i < baseColors.length && colors.length < totalPairs; i++) {
-            colors.push(baseColors[i]);
+        for (let i = 0; i < BASE_COLORS.length && colors.length < totalPairs; i++) {
+            colors.push(BASE_COLORS[i]);
         }
 
         // If still more colors are needed, generate random colors
@@ -50,10 +53,22 @@ document.addEventListener('DOMContentLoaded', () => {
             const card = document.createElement('div');
             card.classList.add('card');
             card.dataset.color = doubledColors[i]; // Store true color in data attribute for matching logic
-            card.style.backgroundColor = 'gray'; // Set the initial background color to gray
-            card.addEventListener('click', flipCard); // Add event listener for flipping the card
+            card.classList.add('card-back'); // Set the initial background color to gray
             gameBoard.appendChild(card);
         }
+
+        document.getElementById('game-over').style.display = 'none'; // Hide "Game over" message
+    }
+
+    // Function to start the game
+    function startGame() {
+        document.getElementById('start-game').style.display = 'none'; // Hide "Start game" button
+        initializeGameBoard(DEFAULT_BOARD_SIZE); // Initialize the default game board (e.g., 4x4)
+    }
+
+    // Function to end the game
+    function endGame() {
+        document.getElementById('game-over').style.display = 'block'; // Show "Game over" message
     }
 
     // Variables to keep track of the game state
@@ -62,40 +77,45 @@ document.addEventListener('DOMContentLoaded', () => {
     let firstCard, secondCard;
 
     // Function to flip a card
-    function flipCard() {
+    function flipCard(card) {
         if (lockBoard) return; // If the board is locked, do nothing
-        if (this === firstCard) return; // If the same card is clicked twice, do nothing
+        if (card === firstCard) return; // If the same card is clicked twice, do nothing
 
-        this.style.backgroundColor = this.dataset.color; // Reveal the card's true color
-        this.classList.add('revealed'); // Add the 'revealed' class to show the card's color
+        card.style.backgroundColor = card.dataset.color; // Reveal the card's true color
+        card.classList.add('revealed'); // Add the 'revealed' class to show the card's color
 
         if (!hasFlippedCard) {
             // If no card has been flipped yet
             hasFlippedCard = true;
-            firstCard = this; // Set the first card
+            firstCard = card; // Set the first card
             return;
         }
 
         // If this is the second card being flipped
-        secondCard = this;
+        secondCard = card;
         lockBoard = true; // Lock the board to prevent further clicks
 
         // Check if the cards match
         if (firstCard.dataset.color === secondCard.dataset.color) {
             // If the cards match, disable them
-            firstCard.removeEventListener('click', flipCard);
-            secondCard.removeEventListener('click', flipCard);
+            firstCard.removeEventListener('click', handleCardClick);
+            secondCard.removeEventListener('click', handleCardClick);
             resetBoard();
         } else {
             // If the cards do not match, flip them back after a short delay
             setTimeout(() => {
-                firstCard.style.backgroundColor = 'gray';
-                secondCard.style.backgroundColor = 'gray';
+                firstCard.style.backgroundColor = CARD_BACK_COLOR;
+                secondCard.style.backgroundColor = CARD_BACK_COLOR;
                 firstCard.classList.remove('revealed');
                 secondCard.classList.remove('revealed');
                 resetBoard();
             }, 1000);
         }
+    }
+
+    // Function to handle card click event
+    function handleCardClick(event) {
+        flipCard(event.target);
     }
 
     // Function to reset the board state
@@ -109,6 +129,13 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('boardSize6x6').addEventListener('click', () => initializeGameBoard(6));
     document.getElementById('boardSize8x8').addEventListener('click', () => initializeGameBoard(8));
 
-    // Initialize the default game board (e.g., 4x4)
-    initializeGameBoard(4);
+    // Event listener for starting the game
+    document.getElementById('start-game').addEventListener('click', startGame);
+
+    // Initialize the game board only when the "Start game" button is clicked
+    document.getElementById('game-board').addEventListener('click', (event) => {
+        if (event.target.classList.contains('card')) {
+            handleCardClick(event);
+        }
+    });
 });

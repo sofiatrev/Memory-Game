@@ -1,0 +1,37 @@
+{
+  "projectType": "azd",
+  "iacTypes": [
+    "bicep",
+    "terraform"
+  ],
+  "resources": [
+    {
+      "type": "azurecontainerapp",
+      "instances": [
+        {
+          "name": "game"
+        }
+      ]
+    }
+  ],
+  "bindings": [],
+  "services": [
+    {
+      "host": "${azurecontainerapp.game}",
+      "language": "dotnet",
+      "project": "./",
+      "port": "80"
+    }
+  ],
+  "settings": [
+    {
+      "resource": "${azurecontainerapp.game}",
+      "envs": [
+        {
+          "name": "ASPNETCORE_ENVIRONMENT",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
