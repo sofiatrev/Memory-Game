@@ -107,6 +107,8 @@ document.addEventListener('DOMContentLoaded', function() {
             firstCard.removeEventListener('click', handleCardClick);
             secondCard.removeEventListener('click', handleCardClick);
             resetBoard();
+
+            
         } else {
             // If the cards do not match, flip them back after a short delay
             setTimeout(() => {

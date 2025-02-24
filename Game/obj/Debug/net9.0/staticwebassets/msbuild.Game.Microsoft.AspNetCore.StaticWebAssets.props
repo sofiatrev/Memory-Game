@@ -84,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>oe1bito8hi</Fingerprint>
-      <Integrity>4EFeH8Gp8TxOmIVQ8qCbPt/4y1m01+5/0dHGMJ1ZBEo=</Integrity>
+      <Fingerprint>tf98dj707r</Fingerprint>
+      <Integrity>N1XGaRGBz6zGdczPAJdO/9ZgfR/mo8WSRKAUww9aNow=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\GameBoard.js'))</OriginalItemSpec>
