@@ -118,6 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
         flipCard(event.target);
     }
 
+
     // Function to reset the board state
     function resetBoard() {
         [hasFlippedCard, lockBoard] = [false, false];
