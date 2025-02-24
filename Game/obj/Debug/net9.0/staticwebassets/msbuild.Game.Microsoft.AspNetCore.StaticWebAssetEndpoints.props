@@ -3,14 +3,14 @@
     <StaticWebAssetEndpoint Include="_content/Game/css/GameBoard.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\GameBoard.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-MtqEp/lOsNU6NR1bg0\u002BlGUzwTyvcSytqo8ub8ft8kWA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"557"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022MtqEp/lOsNU6NR1bg0\u002BlGUzwTyvcSytqo8ub8ft8kWA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 14:49:31 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bq7CzXnsQwVdZQ3h6Yry1haUH/WwSx\u002BKvOsXeTh6PH8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"851"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022bq7CzXnsQwVdZQ3h6Yry1haUH/WwSx\u002BKvOsXeTh6PH8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Feb 2025 22:21:54 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Game/css/GameBoard.ulexyolkh3.css">
+    <StaticWebAssetEndpoint Include="_content/Game/css/GameBoard.e0y5f948g0.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\GameBoard.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ulexyolkh3"},{"Name":"integrity","Value":"sha256-MtqEp/lOsNU6NR1bg0\u002BlGUzwTyvcSytqo8ub8ft8kWA="},{"Name":"label","Value":"_content/Game/css/GameBoard.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"557"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022MtqEp/lOsNU6NR1bg0\u002BlGUzwTyvcSytqo8ub8ft8kWA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 14:49:31 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"e0y5f948g0"},{"Name":"integrity","Value":"sha256-bq7CzXnsQwVdZQ3h6Yry1haUH/WwSx\u002BKvOsXeTh6PH8="},{"Name":"label","Value":"_content/Game/css/GameBoard.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"851"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022bq7CzXnsQwVdZQ3h6Yry1haUH/WwSx\u002BKvOsXeTh6PH8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Feb 2025 22:21:54 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Game/css/site.b9sayid5wm.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
@@ -51,14 +51,14 @@
     <StaticWebAssetEndpoint Include="_content/Game/js/GameBoard.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\GameBoard.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-IWU/DXGxlFZr8caGjKT9C/00Av2a8YMntvuSxLCCc4s="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4750"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022IWU/DXGxlFZr8caGjKT9C/00Av2a8YMntvuSxLCCc4s=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 10:26:23 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4EFeH8Gp8TxOmIVQ8qCbPt/4y1m01\u002B5/0dHGMJ1ZBEo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6222"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00224EFeH8Gp8TxOmIVQ8qCbPt/4y1m01\u002B5/0dHGMJ1ZBEo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Feb 2025 22:45:37 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Game/js/GameBoard.pud8ly3hu2.js">
+    <StaticWebAssetEndpoint Include="_content/Game/js/GameBoard.oe1bito8hi.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\GameBoard.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pud8ly3hu2"},{"Name":"integrity","Value":"sha256-IWU/DXGxlFZr8caGjKT9C/00Av2a8YMntvuSxLCCc4s="},{"Name":"label","Value":"_content/Game/js/GameBoard.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4750"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022IWU/DXGxlFZr8caGjKT9C/00Av2a8YMntvuSxLCCc4s=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 10:26:23 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"oe1bito8hi"},{"Name":"integrity","Value":"sha256-4EFeH8Gp8TxOmIVQ8qCbPt/4y1m01\u002B5/0dHGMJ1ZBEo="},{"Name":"label","Value":"_content/Game/js/GameBoard.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6222"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00224EFeH8Gp8TxOmIVQ8qCbPt/4y1m01\u002B5/0dHGMJ1ZBEo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Feb 2025 22:45:37 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Game/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

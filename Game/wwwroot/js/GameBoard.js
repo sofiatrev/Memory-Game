@@ -1,4 +1,6 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('DOM fully loaded and parsed'); // Debugging log
+
     const BASE_COLORS = ['red', 'blue', 'green', 'yellow', 'purple', 'orange', 'pink', 'brown'];
     const DEFAULT_BOARD_SIZE = 4;
     const CARD_BACK_COLOR = 'gray';
@@ -40,6 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Function to initialize the game board
     function initializeGameBoard(boardSize) {
+        console.log('Initializing game board with size:', boardSize); // Debugging log
         const colors = generateColors(boardSize);
         const doubledColors = [...colors, ...colors]; // Duplicate colors for pairs
         doubledColors.sort(() => 0.5 - Math.random()); // Shuffle the colors
@@ -53,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const card = document.createElement('div');
             card.classList.add('card');
             card.dataset.color = doubledColors[i]; // Store true color in data attribute for matching logic
-            card.classList.add('card-back'); // Set the initial background color to gray
+            card.style.backgroundColor = CARD_BACK_COLOR; // Set the initial background color to gray
             gameBoard.appendChild(card);
         }
 
@@ -62,8 +65,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Function to start the game
     function startGame() {
+        console.log('Start game button clicked'); // Debugging log
         document.getElementById('start-game').style.display = 'none'; // Hide "Start game" button
-        initializeGameBoard(DEFAULT_BOARD_SIZE); // Initialize the default game board (e.g., 4x4)
+        const gameBoard = document.getElementById('game-board');
+        gameBoard.style.display = 'grid'; // Show the game board
+        initializeGameBoard(DEFAULT_BOARD_SIZE); // Initialize the default game board (4x4)
     }
 
     // Function to end the game
@@ -118,25 +124,32 @@ document.addEventListener('DOMContentLoaded', () => {
         flipCard(event.target);
     }
 
-
     // Function to reset the board state
     function resetBoard() {
         [hasFlippedCard, lockBoard] = [false, false];
         [firstCard, secondCard] = [null, null];
     }
 
-    // Event listeners for board size selection
-    document.getElementById('boardSize4x4').addEventListener('click', () => initializeGameBoard(4));
-    document.getElementById('boardSize6x6').addEventListener('click', () => initializeGameBoard(6));
-    document.getElementById('boardSize8x8').addEventListener('click', () => initializeGameBoard(8));
-
     // Event listener for starting the game
-    document.getElementById('start-game').addEventListener('click', startGame);
+    const startGameButton = document.getElementById('start-game');
+    if (startGameButton) {
+        startGameButton.addEventListener('click', () => {
+            console.log('Start game button event listener set up'); // Debugging log
+            startGame();
+        });
+    } else {
+        console.error('Start game button not found');
+    }
 
     // Initialize the game board only when the "Start game" button is clicked
-    document.getElementById('game-board').addEventListener('click', (event) => {
-        if (event.target.classList.contains('card')) {
-            handleCardClick(event);
-        }
-    });
+    const gameBoard = document.getElementById('game-board');
+    if (gameBoard) {
+        gameBoard.addEventListener('click', (event) => {
+            if (event.target.classList.contains('card')) {
+                handleCardClick(event);
+            }
+        });
+    } else {
+        console.error('Game board not found');
+    }
 });

@@ -1,6 +1,6 @@
 #game-board {
-    display: grid;
-    gap: 10px;
+    display: none; /* Initially hidden */
+    gap: 10px; /* Adjust the gap between cards as needed */
 }
 
 #game-board[data-size="4x4"] {
@@ -16,16 +16,19 @@
 }
 
 .card {
-    width: 100px;
+    width: 100px; /* Adjust the size of the cards as needed */
     height: 100px;
-    background-color: gray;
-    border: 1px solid #000;
+    background-color: gray; /* Ensure the initial background color is set */
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    border-radius: 10px;
+    user-select: none;
 }
 
 .card.revealed {
-    background-color: white;
+    background-color: initial; /* This will be overridden by the inline style set in JavaScript */
 }
